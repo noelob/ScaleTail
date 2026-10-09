@@ -40,6 +40,8 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
    docker compose up -d
    ```
 
+Every stack starts from the same [standard setup](documentation/standard-setup.md), which explains the containers, the Tailnet address, and the settings in `.env`.
+
 ## Table of Contents
 
 - [ScaleTail - Secure Self-Hosting Made Simple](#scaletail---secure-self-hosting-made-simple)
@@ -80,7 +82,7 @@ ScaleTail provides ready-to-run [Docker Compose](https://docs.docker.com/compose
 | 🔍 **Nessus**                       | A powerful vulnerability scanner with a free Essentials model for home use.          | [Details](services/nessus)                       |
 | 🗃️ **Netbox**                       | NetBox is the leading solution for modeling and documenting modern networks.         | [Details](services/netbox)                       |
 | 🧩 **Pi-hole**                      | A network-level ad blocker that acts as a DNS sinkhole.                              | [Details](services/pihole)                       |
-| 🆔 **Pocket ID**                    | A self-hosted decentralized identity (OIDC) solution for secure authentication.      | [Details](services/pocket-id)                    |
+| 🆔 **Pocket ID**                    | A self-hosted OIDC provider that signs users in to your services with passkeys.      | [Details](services/pocket-id)                    |
 | 🌐 **Rustdesk Server**              | RustDesk is an open source remote control alternative for self-hosting and security. | [Details](services/rustdesk-server)              |
 | 🔒 **Technitium DNS**               | An open-source DNS server that can be used for self-hosted DNS services.             | [Details](services/technitium)                   |
 | 🌐 **Traefik**                      | A modern reverse proxy and load balancer for microservices.                          | [Details](services/traefik)                      |
